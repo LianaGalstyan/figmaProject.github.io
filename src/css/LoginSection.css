@@ -1,0 +1,140 @@
+.login-section {
+    max-width: 811px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 179px;
+}
+
+.section {
+    margin-top: 88px;
+}
+
+
+h3 {
+    color: #525252;
+    font-size: 36px;
+    line-height: 16px;
+    font-weight: 700 bold;
+}
+
+@media only screen and (max-width: 500px) {
+    h3 {
+        font-size: 25px;
+    }
+}
+
+p {
+    color: #525252;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.btn {
+    cursor: pointer;
+    padding: 12px;
+    background-color: white;
+    border: 1px solid rgb(188, 185, 185);
+    border-radius: 8px;
+    padding: 17px;
+    margin-top: 32px;
+    max-width: 800px;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+span {
+    font-size: 20px;
+    line-height: 19.1px;
+    font-weight: 700 bold;
+    color: #525252;
+}
+
+@media only screen and (max-width: 400px) {
+    span {
+        display: none;
+    }
+}
+
+.icon {
+    position: relative;
+    top: 5px;
+    right: 12px;
+}
+
+.signIn {
+    text-align: center;
+    margin-top: 45px;
+    cursor: pointer;
+}
+
+.login-form {
+    margin-top: 36px;
+    margin-bottom: 188px;
+}
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    color: #828282;
+    font-size: 14px;
+    line-height: 19.1px;
+    font-weight: 600 bold;
+    font-family: sans-serif;
+}
+
+.input {
+    max-width: 800px;
+    width: 100%;
+    padding: 12px;
+    background-color: white;
+    border: 1px solid rgb(188, 185, 185);
+    border-radius: 8px;
+    padding: 18px;
+    margin-top: 8px;
+    outline: none;
+}
+
+.pass-lab {
+    margin-top: 30px;
+}
+
+.log-btn {
+    max-width: 800px;
+    width: 100%;
+    padding: 15px 10px;
+    grid-gap: 13px;
+    background-color: #7F265B;
+    color: white;
+    font-size: 18px;
+    line-height: 24.55px;
+    font-weight: 800 bold;
+    border: none;
+    border-radius: 8px;
+    margin-top: 75px;
+}
+
+.block {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    margin-top: 10px;
+    color: #A1A1A1;
+    font-size: 12px;
+}
+
+.forgot {
+    color: #7F265B;
+}
+
+.container {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    font-size: 22px;
+}
